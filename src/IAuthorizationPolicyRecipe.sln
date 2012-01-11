@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAuthorizationPolicyRecipe.Web", "IAuthorizationPolicyRecipe.Web\IAuthorizationPolicyRecipe.Web.csproj", "{27871DFD-FD15-41FE-B3D0-4F5B342AEB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAuthorizationPolicyRecipe.Tests.Unit", "IAuthorizationPolicyRecipe.Tests.Unit\IAuthorizationPolicyRecipe.Tests.Unit.csproj", "{FF791DA4-6AFF-4CBF-BBE5-0F2E69E1B36F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recipe", "Recipe", "{78CB0D8A-590F-4F9A-8CF1-E1BE86AF4827}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		readme.markdown = readme.markdown
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+        Release|x86 = Release|x86
+    EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27871DFD-FD15-41FE-B3D0-4F5B342AEB86}.Debug|x86.ActiveCfg = Debug|x86
+		{27871DFD-FD15-41FE-B3D0-4F5B342AEB86}.Debug|x86.Build.0 = Debug|x86
+		{27871DFD-FD15-41FE-B3D0-4F5B342AEB86}.Release|x86.ActiveCfg = Release|x86
+		{27871DFD-FD15-41FE-B3D0-4F5B342AEB86}.Release|x86.Build.0 = Release|x86
+		{FF791DA4-6AFF-4CBF-BBE5-0F2E69E1B36F}.Debug|x86.ActiveCfg = Debug|x86
+		{FF791DA4-6AFF-4CBF-BBE5-0F2E69E1B36F}.Debug|x86.Build.0 = Debug|x86
+		{FF791DA4-6AFF-4CBF-BBE5-0F2E69E1B36F}.Release|x86.ActiveCfg = Release|x86
+		{FF791DA4-6AFF-4CBF-BBE5-0F2E69E1B36F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

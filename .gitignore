@@ -1,0 +1,28 @@
+# Visual Studio
+obj
+bin
+src/CommonAssemblyInfo.cs
+*.csproj.user
+*.suo
+*.cache
+*.userprefs
+.DS_Store
+
+# Fubu
+/src/*/*/*/fubu-content/*/
+
+results
+build
+artifacts
+
+# NuGet
+packages
+repositories.config
+
+# mvim
+*.swp
+
+# Resharper
+*.resharper.user
+*.ReSharper.user
+*/_Resharper.*/
