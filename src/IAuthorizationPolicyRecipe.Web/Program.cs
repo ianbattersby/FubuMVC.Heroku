@@ -16,7 +16,7 @@ namespace IAuthorizationPolicyRecipe.Web
 	{
 		private static IApplicationSource source;
 		private static Listener listener;
-		private static int port = 80;
+		private static int port = 8080;
 
 		static void Main ()
 		{
@@ -25,6 +25,8 @@ namespace IAuthorizationPolicyRecipe.Web
 			if (listener != null) {
 				throw new InvalidOperationException ("This FubuMVCApplication is already running");
 			}
+
+            Listen(x => x.Facility.BuildFactory());
 			
 			Listen(null);
 
