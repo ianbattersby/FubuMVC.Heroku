@@ -4,7 +4,7 @@ CLR_TOOLS_VERSION = "v4.0.30319"
 buildsupportfiles = Dir["#{File.dirname(__FILE__)}/buildsupport/*.rb"]
 raise "Run `git submodule update --init` to populate your buildsupport folder." unless buildsupportfiles.any?
 buildsupportfiles.each { |ext| load ext }
-solution_dir = "src"
+solution_dir = "./"
 
 include FileTest
 require 'albacore'
