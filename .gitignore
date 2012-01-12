@@ -6,6 +6,7 @@ src/CommonAssemblyInfo.cs
 *.suo
 *.cache
 *.userprefs
+*.pidb
 .DS_Store
 
 # Fubu

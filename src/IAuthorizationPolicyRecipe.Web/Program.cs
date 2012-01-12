@@ -1,16 +1,16 @@
 namespace IAuthorizationPolicyRecipe.Web
 {
-  using System;
-  using System.Diagnostics;
-  using System.Web.Routing;
-	using System.Net;
-  using FubuCore;
-  using StructureMap;
-  using FubuMVC.Core;
-  using FubuMVC.Spark;
-	using Kayak;
-	using FubuMVC.StructureMap;
-	using IAuthorizationPolicyRecipe.Web.Security;
+    using System;
+    using System.Diagnostics;
+    using System.Web.Routing;
+    using System.Net;
+    using FubuCore;
+    using StructureMap;
+    using FubuMVC.Core;
+    using FubuMVC.Spark;
+    using Kayak;
+    using FubuMVC.StructureMap;
+    using IAuthorizationPolicyRecipe.Web.Security;
 
 	class Program
 	{
@@ -23,7 +23,7 @@ namespace IAuthorizationPolicyRecipe.Web
 			source = new HerokuApplication();
 			
 			if (listener != null) {
-				throw new InvalidOperationException ("This FubuKayakApplication is already running");
+				throw new InvalidOperationException ("This FubuMVCApplication is already running");
 			}
 			
 			Listen(null);
