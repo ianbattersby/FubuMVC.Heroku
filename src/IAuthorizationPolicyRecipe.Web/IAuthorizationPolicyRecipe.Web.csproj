@@ -8,11 +8,12 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{27871DFD-FD15-41FE-B3D0-4F5B342AEB86}</ProjectGuid>
     <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IAuthorizationPolicyRecipe.Web</RootNamespace>
     <AssemblyName>IAuthorizationPolicyRecipe.Web</AssemblyName>
-    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
